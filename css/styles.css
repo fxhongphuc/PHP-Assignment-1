@@ -1,0 +1,196 @@
+header.navbar {
+    position: sticky;          /* The navigation bar will stay at the top of the page */
+    top: 0;
+    padding: 0.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(170, 129, 199);
+    z-index: 99;               /* The nav bar will be displayed on the top layer */
+  }
+
+  .head-title{
+    background-image: url('../images/nailcover.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+  
+  h1{
+    font-family: Geologica;
+    margin: 0px;
+    padding: 150px 40px 60px 40px;
+    font-size: 60px;
+  }
+
+  h2{
+    font-size: 50px;
+    text-align: center;
+  }
+
+  header.navbar img {         /* Sizing the logo in the navbar */
+    width: 10%;
+    min-width: 100px;
+    min-height: 60px;
+    object-fit: contain;
+  }  
+  ul.navigation {
+    white-space: nowrap;      /* suppresses line-break so that the menu links will always appear in one row regardless of the screen size */
+  }
+  
+  ul.navigation li {          /* change the display of the list items in the nav bar so they will appear in a row */
+    display: inline;
+    font-weight: 30px;
+  }
+
+  .navigation a {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+  }
+  
+  .navigation a::after{       /* Add an underline animation when the menu link is hovered */
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3px;
+    transform-origin: right;
+    background: #fff;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+  }
+  
+  .navigation a:hover::after{
+    transform-origin: left;
+    transform: scaleX(1);
+  }
+  li *.list-label {
+    font-weight: bold;
+  }
+
+  .container{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    background-color: blanchedalmond;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+    font-weight: 400;
+    height: 542.617px;
+    justify-content: center;
+    line-height: 24px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-top: 0px;
+    height:fit-content;
+    padding-bottom: 46px;
+    padding-left: 46px;
+    padding-right: 46px;
+    padding-top: 46px;
+    text-align: start;
+  }
+
+  .footer{
+    box-sizing: border-box;
+    color: rgb(33, 37, 41);
+    background-color: rgb(242, 240, 238);
+    display: flex;
+    height:fit-content;
+  }
+
+  .form-label{
+    display:block;
+    font-size: 30px;
+    padding-top:8px ;
+    padding-bottom: 8px;
+    margin:0;
+    text-align: center;
+  }
+  .col{
+    text-align: center;
+    padding-top:10px ;
+    padding-bottom: 10px;
+  }
+  .form-control{
+    width: 300px;
+    height: 40px;
+  }
+
+  .first-part{
+box-sizing: border-box;
+color:rgb(0, 0, 0);
+flex-basis: auto;
+flex-grow :0;
+flex-shrink: 1;
+font-family :Palanquin, sans-serif;
+font-size :16px;
+font-weight: 400;
+height: 202.977px;
+line-height :27.2px;
+max-width :none;
+min-height :1px;
+order: 0;
+text-align :left;
+text-size-adjust: 100%;
+width :293.289px;
+margin-left: 190px;
+  }
+
+  .second-part{
+box-sizing: border-box;
+color:rgb(0, 0, 0);
+flex-basis: auto;
+flex-grow :0;
+flex-shrink: 1;
+font-family :Palanquin, sans-serif;
+font-size :16px;
+font-weight: 400;
+height: 202.977px;
+line-height :27.2px;
+max-width :none;
+min-height :1px;
+order: 0;
+text-align :right;
+text-size-adjust: 100%;
+width :293.289px;
+margin-left: 230px;
+  }
+
+.summit{
+  display:inline;
+  padding-left: 500px;
+  font-size: 20px;
+  padding:20px 15px 20px 15px ;
+  border:solid;
+  border-radius: 3px;
+  background-color: rgb(8, 244, 56);
+  cursor: pointer;
+}
+.reset{
+  display:inline;
+  padding:20px 15px 20px 15px ;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  border:solid;
+  border-radius: 3px;
+  background-color: rgba(228, 36, 36, 0.929);
+}
+
+.button{
+  text-align: center;
+  
+}
+
+
+
+  
+  
+  
